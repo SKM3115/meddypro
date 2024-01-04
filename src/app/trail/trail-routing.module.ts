@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { TrailPage } from './trail.page';
+import { TrailPageRoutingModule } from './TrailPage-routing.module'; // Check the correct file path and casing
+
 
 const routes: Routes = [
   {
