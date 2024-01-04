@@ -5,7 +5,7 @@ FROM node:16 as build
 WORKDIR /app
 
 # Copy the package.json and package-lock.json from the Angular app directory to the container
-COPY ./meddypro/package*.json ./
+COPY ./package*.json ./
 
 # Install app dependencies
 RUN npm install
@@ -14,7 +14,7 @@ RUN npm install
 RUN npm install -g ionic
 
 # Copy the rest of the application code to the working directory
-COPY ./medddypro .
+COPY ./ .
 
 # Build the Ionic app
  RUN ionic build
