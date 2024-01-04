@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { TrailPageRoutingModule } from './Trail-routing.module';
+import { TrailPageRoutingModule } from './trail-routing.module';
 
 import { TrailPage } from './trail.page';
 import { HttpClientModule } from '@angular/common/http';
